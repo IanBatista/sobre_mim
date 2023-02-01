@@ -11,23 +11,21 @@
 </head>
 
 <body>
-    <h1>Seja bem vindo(a) ao meu site! Clique nos links e será direcionado para a informação desejada.</h1>
-    <img src="rosto.gif" width="100px" alt="rosto feliz">
-    <br>
-    <!--Inicio da tabela-->
 
-    <table align="center" style="text-align: center;" border="1" width="40%">
-
-        <!--Minhas informações pessoais-->
-        <tr>
-            <th>Sobre mim:</th>
-            <th>Meu currículo:</th>
-        </tr>
-        <tr>
-            <td><a href="ian.html">Venha me conhecer</a></td>
-            <td><a href="curriculo.html"> Conhecer meu currículo</a></td>
-        </tr>
-    </table> <!--Fim da tabela-->
+    <h1>Faça seu login</h1>
+    <form action="" method="post">
+        <!--USUÁRIO-->
+        <label for="Usuario">Usuario:</label>
+        <input id="Usuario" type="text" name="Usuario" placeholder="Digite seu usuário" required>
+        <br>
+        <!--SENHA-->
+        <label for="Senha">Senha:</label>
+        <input id="Senha" type="password" name="Senha" placeholder="Digite sua senha" required>
+        <br>
+        <!--BUTÃO DE ENVIAR-->
+        <input type="submit" value="Entrar"><br>
+        <a href="cadastro.html">Faça seu cadastro</a>
+    </form>
 </body>
 
 </html>
